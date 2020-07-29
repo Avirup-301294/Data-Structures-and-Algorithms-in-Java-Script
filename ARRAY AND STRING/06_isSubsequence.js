@@ -14,7 +14,7 @@ console.log(isSubsequence("hello","hello world"));
 console.log(isSubsequence("abc","acb"));
 
 
-//Recursive solution not o(1) space
+//Recursive solution not O(1) space
 function isSubsequence(str1, str2) {
   if(str1.length === 0) return true
   if(str2.length === 0) return false

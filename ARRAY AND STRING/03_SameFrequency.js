@@ -1,4 +1,4 @@
-//Frequency counter=====
+//Frequency counter =====
 function sameFrequency(a,b){
     var StringA = a.toString();
 	  var StringB = b.toString(); 

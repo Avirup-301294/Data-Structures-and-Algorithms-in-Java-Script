@@ -1,3 +1,4 @@
+//Naive way
 /* function charCount(str){
     var obj = {}
     for(var char of str){
@@ -13,6 +14,7 @@
     return obj;
 } */
 
+//Optimal way
 function charCount(str){
     var obj = {}
     for(var char of str){

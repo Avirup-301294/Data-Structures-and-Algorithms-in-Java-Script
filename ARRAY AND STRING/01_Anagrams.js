@@ -1,5 +1,5 @@
-/* function validAnagram(str1,str2){
-  // My Method
+// Anagrams
+ function validAnagram(str1,str2){
 
   if(str1.length !== str2.length){
       return false;
@@ -38,7 +38,7 @@ console.log(validAnagram("anagram","nagaram"));
 console.log(validAnagram("anagrams","nagaramm"));
 console.log(validAnagram("rat","car")); */
 
-//Colt Method================================================================
+// Optimal Way
 
 function validAnagram(first, second) {
   if (first.length !== second.length) {

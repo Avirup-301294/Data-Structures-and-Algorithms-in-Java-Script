@@ -1,8 +1,9 @@
+//Dynamic Prog. Prob.
 function findLongestSubstring(str) {
   let longest = 0;
   let seen = {};
   let start = 0;
- var c= 0;
+  var c= 0;
   for (let i = 0; i < str.length; i++) {
     let char = str[i];
     if (seen[char]) {
